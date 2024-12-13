@@ -14,17 +14,17 @@ import Bookmark from "./pages/home/Bookmark";
 
 function App() {
   const { user, isCheckingAuth, authCheck } = useAuthStore();
-  console.log("auth user is here:", user);
 
   useEffect(() => {
-    authCheck();
+    authCheck(); // Call authCheck when the app loads
   }, [authCheck]);
 
+  // Loading state while checking auth
   if (isCheckingAuth) {
     return (
-      <div className='h-screen'>
-        <div className='flex justify-center items-center bg-black h-full'>
-          
+      <div className="h-screen">
+        <div className="flex justify-center items-center bg-black h-full">
+          <p className="text-white">Loading...</p>
         </div>
       </div>
     );
@@ -33,18 +33,43 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/bookmarks' element={<Bookmark />} />
-        <Route path='/login' element={!user ? <Login /> : <Navigate to={"/"} />} />
-        <Route path='/signUp' element={!user ? <SignUp /> : <Navigate to={"/"} />} />
-        <Route path='/watch/:id' element={user ? <WatchPage /> : <Navigate to={"/login"} />} />
-        <Route path='/search' element={user ? <SearchPage /> : <Navigate to={"/login"} />} />
-        <Route path='/history' element={user ? <SearchHistoryPage /> : <Navigate to={"/login"} />} />
-        <Route path='/*' element={<NotFoundPage />} />
+        {/* Public routes */}
+        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/bookmarks"
+          element={user ? <Bookmark /> : <Navigate to="/login" />}
+        />
+        <Route
+          path="/login"
+          element={user ? <Navigate to="/" /> : <Login />}
+        />
+        <Route
+          path="/signUp"
+          element={user ? <Navigate to="/" /> : <SignUp />}
+        />
+
+        {/* Protected routes */}
+        <Route
+          path="/watch/:id"
+          element={user ? <WatchPage /> : <Navigate to="/login" />}
+        />
+        <Route
+          path="/search"
+          element={user ? <SearchPage /> : <Navigate to="/login" />}
+        />
+        <Route
+          path="/history"
+          element={user ? <SearchHistoryPage /> : <Navigate to="/login" />}
+        />
+
+        {/* Catch-all route for 404 */}
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
 
+      {/* Footer always visible */}
       <Footer />
 
+      {/* Toast notifications */}
       <Toaster />
     </>
   );

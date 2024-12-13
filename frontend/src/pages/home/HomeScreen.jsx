@@ -9,13 +9,15 @@ import { useState } from "react";
 
 const HomeScreen = () => {
   const { trendingContent } = useGetTrendingContent();
-  const { contentType, addBookmark, bookmarks } = useContentStore();
+  const { contentType, addBookmark, removeBookmark, bookmarks } = useContentStore();
   const [imgLoading, setImgLoading] = useState(true);
 
-  // Handles adding to bookmarks
+  // Handles adding or removing from bookmarks
   const handleBookmark = () => {
     if (!bookmarks.some((content) => content.id === trendingContent?.id)) {
       addBookmark(trendingContent); // Adds the trending content to bookmarks
+    } else {
+      removeBookmark(trendingContent?.id); // Removes the trending content from bookmarks
     }
   };
 
@@ -86,7 +88,9 @@ const HomeScreen = () => {
               className={`bg-gray-500/70 hover:bg-gray-500 text-white py-2 px-4 rounded flex items-center ml-4`}
             >
               <Bookmark className="size-6 mr-2" />
-              Bookmark
+              {bookmarks.some((content) => content.id === trendingContent?.id)
+                ? "Remove Bookmark"
+                : "Add to Bookmarks"}
             </button>
           </div>
         </div>
