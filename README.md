@@ -1,5 +1,5 @@
 # entertainment
-This is a frontend Capstone project given by the Almabetter which is Flashcard Generator.
+This is a practical software engineering project given by the Almabetter which is Entertainment app.
 
 
 ## Summary Document
