@@ -5,18 +5,33 @@ This is a practical software engineering project given by the Almabetter which i
 ## Summary Document
 <b>Click [Here](https://docs.google.com/document/d/1a0wS3CdqFjuOc5PSZ8JiJoh5irsQbefFgl_zogn-O_E/edit?tab=t.0)</b> to see my summary document.
 ## Demo about the pages:
-* Home Page
-<img width="1120" alt="image" src="https://github.com/user-attachments/assets/d8fb4359-9ce6-44b8-b0b2-e02944308605">
+* Home page
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/44262e1e-d214-4835-98b2-b8da7eed19a5)">
 
-* My FlashCard
-<img width="1120" alt="image" src="https://github.com/user-attachments/assets/aac8c454-1e59-4e15-91e0-0e3b5613032e">
+* Login Page
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/d5a730e5-8182-43dd-b11f-f3ea612cae39)">
 
-* Group
-<img width="1120" alt="image" src="https://github.com/user-attachments/assets/68d08a8e-9abd-46a4-91d6-41b4f7ed17c4">
+* SignUp page
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/f3dbdc51-da13-48ed-965d-d231817e1e69)">
+
+* Movie page 
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/86d3ff7f-19a1-4472-a6b6-ea2395c83e80)">
+
+* Tv Shows page 
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/acb2292f-67c4-4245-9971-b8240048c253)">
+
+* Search History 
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/26d07afa-be5c-4220-b35f-ea8a73de6401)">
+
+* Bookmark page
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/ca764104-8e32-4b02-85b9-c7326c06bb72)">
+
+* Search page
+<img width="1120" alt="image" src="(https://github.com/user-attachments/assets/dd3f37f7-9aa4-492a-8ac5-3aabe5870950)">
 
 ## Deployment
 
-[Click Here](https://flashcardgenerater.netlify.app/) to see my flashcard generator website.
+[Click Here](https://flashcardgenerater.netlify.app/) to see my entertainment website (netflix clone).
 
 ## Run Locally
 
@@ -49,12 +64,13 @@ Aakash Kumar
 ## About The Project (Flashcard )
 This project is created with mainly React js, In this project mainly we have five pages.
 ```bash
-1) Login page
-2) Signup page
-3) Movie Page
-4) Tv Shows
-5) Search History
-6) Bookmarks
+1) Home page
+2) Login page
+3) Signup page
+4) Movie Page
+5) Tv Shows
+6) Search History
+7) Bookmarks
 ```
 - Login page: In this page, user can fill there credentials and login to entertainment app.
 
