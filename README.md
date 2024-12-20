@@ -4,6 +4,13 @@ This is a practical software engineering project given by the Almabetter which i
 
 ## Summary Document
 <b>Click [Here](https://docs.google.com/document/d/1a0wS3CdqFjuOc5PSZ8JiJoh5irsQbefFgl_zogn-O_E/edit?tab=t.0)</b> to see my summary document.
+
+## My Git Hub
+<b>Click [Here](https://github.com/AakashKumar8/entertainment)</b>
+
+## My Web link
+<b>Click [Here](https://entertainment-pq6a.onrender.com/)</b>
+
 ## Demo about the pages:
 * <b>Home page<b>
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/44262e1e-d214-4835-98b2-b8da7eed19a5">
@@ -31,7 +38,7 @@ This is a practical software engineering project given by the Almabetter which i
 
 ## Deployment
 
-[Click Here](https://flashcardgenerater.netlify.app/) to see my entertainment website (netflix clone).
+[Click Here](https://entertainment-pq6a.onrender.com/) to see my entertainment website (netflix clone).
 
 ## Run Locally
 
