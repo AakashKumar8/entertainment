@@ -68,7 +68,7 @@ Aakash Kumar
 - mongodb(database)
 
 
-## About The Project (Flashcard )
+## About The Project (Entertainment)
 This project is created with mainly React js, In this project mainly we have five pages.
 ```bash
 1) Home page
@@ -93,9 +93,9 @@ This project is created with mainly React js, In this project mainly we have fiv
 
 ## How To Use
 
-1) Open the flashcard generator [Click Here](https://entertainment-pq6a.onrender.com/).
+1) Open the Entertainment App [Click Here](https://entertainment-pq6a.onrender.com/).
 
-2) User can sign up by clicking on sign up button and filling all the credentials.
+2) User can sign up by clicking on sign in button and filling all the credentials.
 
 3) User needs to fill login credentials and click on the login button to navigate to the home page.
 
