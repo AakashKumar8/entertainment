@@ -5,6 +5,9 @@ This is a practical software engineering project given by the Almabetter which i
 ## Summary Document
 <b>Click [Here](https://docs.google.com/document/d/1a0wS3CdqFjuOc5PSZ8JiJoh5irsQbefFgl_zogn-O_E/edit?tab=t.0)</b> to see my summary document.
 
+## Video link
+<b>Click [Here](https://youtu.be/eaDXV1Dz_yE)</b>
+
 ## Web link
 <b>Click [Here](https://entertainment-pq6a.onrender.com/)</b>
 
