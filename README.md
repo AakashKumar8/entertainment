@@ -33,7 +33,7 @@ This is a practical software engineering project given by the Almabetter which i
 * <b>Bookmark page<b>
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/ca764104-8e32-4b02-85b9-c7326c06bb72">
 
-* <b?Search page<b>
+* <b>Search page<b>
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/dd3f37f7-9aa4-492a-8ac5-3aabe5870950">
 
 ## Deployment
